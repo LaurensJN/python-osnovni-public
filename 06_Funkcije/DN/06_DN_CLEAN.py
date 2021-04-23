@@ -1,4 +1,4 @@
-'''
+"""
 Naloga: 
 Ustvarite funkcijo, ki kot parametra vzeme list številk in neko število m, ki predstavlja zgornjo mejo.
 
@@ -13,14 +13,11 @@ funkcija([1,12,-3,54,12,-22,65,32], 33)
 
 Output:
 [1, 12, -3, 33, 12, -22, 33, 32]
-'''
+"""
 # Rešitev
 
 
-
-
-
-'''
+"""
 Naloga: 
 Ustvarite funkcijo, ki prejme list cen v $ in valuto v katero naj spremeni cene.
 
@@ -37,15 +34,12 @@ funkcija(prices, "€")
 Output:
 ['53€', '120€', '1222€', '342€', '91€', '51€', '39€']
 
-​'''
+​"""
 # Rešitev
 prices = ["$53", "$  120", "$ 1222", "$$342", " $ 91", " $ 51", "39$"]
 
 
-
-
-
-'''
+"""
 Naloga: 
 Ustvarite dve funkciji, ki bosta delovali kot "Cesar's cipher".
 Cesar's encryption si lahko predstavljamo tako, da položimo dve abecedi eno na drugo, kjer je ena zamaknjena za določeno število črk. V danem primeru imamo zamik v desno za 3 črke.
@@ -86,10 +80,7 @@ cesars_encryption(message2, 7)
 
 Output:
 TMMTVD TM WTPG
-'''
+"""
 # Rešitev
 message = "THE QUICK BROWN FOX JUMPS OVER THE LAZY DOG"
 message2 = "ATTACK AT DAWN"
-
-
-
